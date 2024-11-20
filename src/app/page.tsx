@@ -19,7 +19,7 @@ export default function Home() {
       controlArrowColor=" rgb(59 130 246)"
       scrollingSpeed={1000} // Adjust scrolling speed if needed
       navigation={true} // Show navigation dots
-      render={({ fullpageApi }) => (
+      render={({ }) => (
         <div className="w-full h-full">
           <div className="w-full section h-full">
           <HeroSection />
