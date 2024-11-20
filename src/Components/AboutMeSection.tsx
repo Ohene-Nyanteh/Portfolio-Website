@@ -53,7 +53,7 @@ export default function AboutMeSection() {
             My name is Ohene Nyanteh, and I began my coding journey about half a
             decade ago when I discovered a deep passion for programming. What
             started as curiosity quickly became a drive to learn and master
-            various technologies. Over the years, I’ve become proficient in
+            various technologies. Over the years, I&apos;ve become proficient in
             languages like PHP, JavaScript, and Python, and frameworks such as
             React and Vue.js. This experience has allowed me to build websites,
             mobile apps using React Native, and backend solutions. I am
