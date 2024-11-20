@@ -1,8 +1,10 @@
 import DoubleBorderBox from "@/Widgets/DoubleBorderBox";
 import { animated, useSpring } from "@react-spring/web";
 import Link from "next/link";
-import { DiDjango, DiGit } from "react-icons/di";
+import { DiCss3, DiDjango, DiGit, DiGo, DiPython } from "react-icons/di";
 import { FaPhp, FaReact } from "react-icons/fa6";
+import { MdCss } from "react-icons/md";
+import { TbSql } from "react-icons/tb";
 import { useInView } from "react-intersection-observer";
 
 export default function TechStackSection() {
@@ -43,17 +45,17 @@ export default function TechStackSection() {
   });
 
   return (
-    <div className="flex flex-col gap-11 p-2 md:p-10 justify-center items-center">
+    <div className="flex flex-col gap-11 p-2 md:p-5 justify-center items-center">
       <div className="text-5xl font-extrabold text-center">TECH STACK</div>
       <div className="w-full flex-col md:w-5/6 rounded-2xl relative p-1">
         <div className="w-full h-full bg-gradient-to-tr rounded-2xl from-blue-500 to-green-700 filter hidden md:block  opacity-65 absolute top-0 left-0 blur "></div>
-        <div className="w-full h-full md:border md:border-blue-500  md:bg-slate-700 relative md:p-16 rounded-2xl p-4">
-          <div className="flex flex-col gap-5 md:gap-10">
-            <div className="flex justify-between md:flex-row flex-col items-center gap-6">
+        <div className="w-full h-full md:border md:border-blue-500  md:bg-slate-700 relative md:p-10 rounded-2xl p-4">
+          <div className="flex flex-col gap-5 md:gap-2">
+            <div className="flex justify-between md:grid md:place-items-center md:grid-cols-4 md:grid-rows-2 md:gap-4 flex-col flex-wrap items-center gap-6">
               <animated.div style={springs} ref={ref}>
                 <div className="w-auto flex flex-col gap-6">
                   <DoubleBorderBox>
-                    <FaReact size={200} />
+                    <FaReact size={100} />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     React
@@ -63,7 +65,7 @@ export default function TechStackSection() {
               <animated.div style={springs2} ref={ref}>
                 <div className="w-auto flex flex-col gap-6">
                   <DoubleBorderBox>
-                    <FaPhp size={200} />
+                    <FaPhp size={100} />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     PHP
@@ -73,7 +75,7 @@ export default function TechStackSection() {
               <animated.div style={springs3} ref={ref}>
                 <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto">
                   <DoubleBorderBox>
-                    <DiGit size={200} />
+                    <DiGit size={100} />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     Git
@@ -83,10 +85,50 @@ export default function TechStackSection() {
               <animated.div style={springs4} ref={ref}>
                 <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
                   <DoubleBorderBox>
-                    <DiDjango size={200} />
+                    <DiDjango size={100} />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     Django
+                  </div>
+                </div>
+              </animated.div>
+              <animated.div style={springs} ref={ref}>
+                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
+                  <DoubleBorderBox>
+                    <DiPython size={100} />
+                  </DoubleBorderBox>
+                  <div className="text-xl font-bold text-center w-full">
+                    Python
+                  </div>
+                </div>
+              </animated.div>
+              <animated.div style={springs2} ref={ref}>
+                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
+                  <DoubleBorderBox>
+                    <TbSql size={100} />
+                  </DoubleBorderBox>
+                  <div className="text-xl font-bold text-center w-full">
+                    SQL
+                  </div>
+                </div>
+              </animated.div>
+              <animated.div style={springs3} ref={ref}>
+                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
+                  <DoubleBorderBox>
+                    <DiCss3 size={100} />
+                  </DoubleBorderBox>
+                  <div className="text-xl font-bold text-center w-full">
+                    CSS
+                  </div>
+                </div>
+              </animated.div>
+              <animated.div style={springs4} ref={ref}>
+                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
+                  <DoubleBorderBox>
+                    <DiGo size={100} />
+                  </DoubleBorderBox>
+                  <div className="text-xl font-bold text-center w-full">
+                    Go
                   </div>
                 </div>
               </animated.div>

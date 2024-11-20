@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
 export default function ContactMe() {
   return (
@@ -8,7 +8,7 @@ export default function ContactMe() {
       <div className="flex space-x-8 mb-10">
         {/* LinkedIn */}
         <Link
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://www.linkedin.com/in/ohene-nyanteh"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500 transition-colors duration-200"
@@ -18,7 +18,7 @@ export default function ContactMe() {
 
         {/* Instagram */}
         <Link
-          href="https://www.instagram.com/your-profile"
+          href="https://www.instagram.com/ohene_89"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-pink-500 transition-colors duration-200"
@@ -26,19 +26,10 @@ export default function ContactMe() {
           <FaInstagram size={40} />
         </Link>
 
-        {/* Twitter */}
-        <Link
-          href="https://twitter.com/your-profile"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-blue-400 transition-colors duration-200"
-        >
-          <FaTwitter size={40} />
-        </Link>
 
         {/* GitHub */}
         <Link
-          href="https://github.com/your-profile"
+          href="https://github.com/Ohene-Nyanteh"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-500 transition-colors duration-200"

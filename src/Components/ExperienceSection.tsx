@@ -35,9 +35,9 @@ export default function ExperienceSection() {
 
       {/* Buttons */}
       <div className="flex flex-col md:w-fit text-center md:flex-row md:rounded-full rounded w-full p-6 gap-6 bg-slate-800">
-        <div className="md:px-10 md:py-6 px-5 py-2 rounded-full bg-slate-950 border-2 hover:border-blue-400">Learn More</div>
-        <div className="md:px-10 md:py-6 px-5 py-2 rounded-full bg-slate-950 border-2 hover:border-blue-400">View My Works</div>
-        <div className="md:px-10 md:py-6 px-5 py-2 rounded-full bg-slate-950 border-2 hover:border-blue-400">Contact Me</div>
+        <a href="#About" className="md:px-10 md:py-6 px-5 py-2 rounded-full bg-slate-950 border-2 hover:border-blue-400">Learn More</a>
+        <a href="#Projects" className="md:px-10 md:py-6 px-5 py-2 rounded-full bg-slate-950 border-2 hover:border-blue-400">View My Works</a>
+        <a href="#Contact" className="md:px-10 md:py-6 px-5 py-2 rounded-full bg-slate-950 border-2 hover:border-blue-400">Contact Me</a>
       </div>
       </div>
     </div>
