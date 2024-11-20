@@ -1,5 +1,4 @@
-import React, { ReactNode } from 'react'
-import { FaReact } from 'react-icons/fa6'
+import { ReactNode } from 'react';
 
 export default function DoubleBorderBox({children}: {children: ReactNode}) {
   return (

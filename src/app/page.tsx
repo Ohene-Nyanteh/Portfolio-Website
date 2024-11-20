@@ -1,6 +1,5 @@
-"use client"; // For Next.js App Router
-
-import React from "react";
+// For Next.js App Router
+"use client";;
 import ReactFullpage from "@fullpage/react-fullpage";
 import HeroSection from "@/Components/HeroSection";
 import ExperienceSection from "@/Components/ExperienceSection";

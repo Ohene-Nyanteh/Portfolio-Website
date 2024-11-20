@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import ProfileImage from "../../public/ImageForU.jpg";
 import { useInView } from "react-intersection-observer";
 import { animated, useSpring } from "@react-spring/web";

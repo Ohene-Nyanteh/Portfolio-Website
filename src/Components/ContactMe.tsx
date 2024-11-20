@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import { FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 
 export default function ContactMe() {

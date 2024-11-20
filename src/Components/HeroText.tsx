@@ -1,5 +1,4 @@
 import { animated } from '@react-spring/web'
-import React from 'react'
 
 export default function HeroText() {
   return (

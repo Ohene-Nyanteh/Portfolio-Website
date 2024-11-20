@@ -1,10 +1,8 @@
 import DoubleBorderBox from "@/Widgets/DoubleBorderBox";
 import { animated, useSpring } from "@react-spring/web";
 import Link from "next/link";
-import React from "react";
-import { DiDjango, DiGit, DiJavascript } from "react-icons/di";
-import { FaJava } from "react-icons/fa";
-import { FaGit, FaPhp, FaReact } from "react-icons/fa6";
+import { DiDjango, DiGit } from "react-icons/di";
+import { FaPhp, FaReact } from "react-icons/fa6";
 import { useInView } from "react-intersection-observer";
 
 export default function TechStackSection() {

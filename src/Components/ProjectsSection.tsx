@@ -1,4 +1,3 @@
-import React from "react";
 import GHSWebsite from "../../public/GSHSWebsite.png";
 import SchoolVotingSystem from "../../public/SchoolVotingSystem.png";
 import CodeProScreenshot from "../../public/CodeProSreenshot.png";

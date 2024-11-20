@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import Background1 from "../../public/Background1.webp";
 import Header from "./Header";
 import { MdArrowDownward } from "react-icons/md";
