@@ -29,8 +29,8 @@ export default function AboutMeSection() {
 
       
   return (
-    <div className="flex flex-col gap-4 w-full h-full justify-center md:p-20 p-2 items-center">
-      <div className="text-3xl font-extrabold border border-blue-500 p-4">
+    <div className="flex flex-col gap-4 w-full h-full justify-center md:p-20 p-10 items-center">
+      <div className="text-2xl md:text-3xl font-extrabold border border-blue-500 p-1 md:p-4">
         ABOUT ME
       </div>
       <div className="w-full h-full flex flex-col md:flex-row gap-4 md:gap-0">
@@ -49,8 +49,8 @@ export default function AboutMeSection() {
           <div className="text-2xl hidden md:block md:text-3xl w-full text-center  border border-blue-500 p-2 italic">
             A little About Me
           </div>
-          <div className="w-full h-full shadow-md md:bg-slate-800 md:p-4 rounded-lg flex items-center justify-center font-sans text-sm md:text-lg text-center">
-            My name is Ohene Nyanteh, and I began my coding journey about half a
+          <div className="w-full h-full shadow-md md:bg-slate-800 md:p-4 rounded-lg flex items-center justify-center font-sans text-xs md:text-lg text-center">
+            I began my coding journey about half a
             decade ago when I discovered a deep passion for programming. What
             started as curiosity quickly became a drive to learn and master
             various technologies. Over the years, I&apos;ve become proficient in

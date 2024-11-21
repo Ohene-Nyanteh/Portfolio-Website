@@ -45,17 +45,17 @@ export default function TechStackSection() {
   });
 
   return (
-    <div className="flex flex-col gap-11 p-2 md:p-5 justify-center items-center">
-      <div className="text-5xl font-extrabold text-center">TECH STACK</div>
+    <div className="flex flex-col gap-5 p-4 md:p-5 justify-center items-center">
+      <div className="text-3xl p-2 border border-blue-500 font-extrabold text-center">TECH STACK</div>
       <div className="w-full flex-col md:w-5/6 rounded-2xl relative p-1">
         <div className="w-full h-full bg-gradient-to-tr rounded-2xl from-blue-500 to-green-700 filter hidden md:block  opacity-65 absolute top-0 left-0 blur "></div>
         <div className="w-full h-full md:border md:border-blue-500  md:bg-slate-700 relative md:p-10 rounded-2xl p-4">
           <div className="flex flex-col gap-5 md:gap-2">
-            <div className="flex justify-between md:grid md:place-items-center md:grid-cols-4 md:grid-rows-2 md:gap-4 flex-col flex-wrap items-center gap-6">
+            <div className="grid grid-cols-2 place-items-center  md:grid md:place-items-center md:grid-cols-4 md:grid-rows-2 md:gap-10 flex-col flex-wrap items-center gap-6">
               <animated.div style={springs} ref={ref}>
-                <div className="w-auto flex flex-col gap-6">
+                <div className="w-auto flex flex-col gap-3">
                   <DoubleBorderBox>
-                    <FaReact size={100} />
+                    <FaReact  className="size-28 md:size-32" />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     React
@@ -63,9 +63,9 @@ export default function TechStackSection() {
                 </div>
               </animated.div>
               <animated.div style={springs2} ref={ref}>
-                <div className="w-auto flex flex-col gap-6">
+                <div className="w-auto flex flex-col gap-3">
                   <DoubleBorderBox>
-                    <FaPhp size={100} />
+                    <FaPhp className="size-28" />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     PHP
@@ -73,9 +73,9 @@ export default function TechStackSection() {
                 </div>
               </animated.div>
               <animated.div style={springs3} ref={ref}>
-                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto">
+                <div className="w-auto flex md:flex flex-col gap-3  md:w-auto">
                   <DoubleBorderBox>
-                    <DiGit size={100} />
+                    <DiGit className="size-28 md:size-32" />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     Git
@@ -83,9 +83,9 @@ export default function TechStackSection() {
                 </div>
               </animated.div>
               <animated.div style={springs4} ref={ref}>
-                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
+                <div className="w-auto flex md:flex flex-col gap-3  md:w-auto ">
                   <DoubleBorderBox>
-                    <DiDjango size={100} />
+                    <DiDjango className="size-28 md:size-32" />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     Django
@@ -93,9 +93,9 @@ export default function TechStackSection() {
                 </div>
               </animated.div>
               <animated.div style={springs} ref={ref}>
-                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
+                <div className="w-auto flex md:flex flex-col gap-3  md:w-auto ">
                   <DoubleBorderBox>
-                    <DiPython size={100} />
+                    <DiPython className="size-28 md:size-32" />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     Python
@@ -103,9 +103,9 @@ export default function TechStackSection() {
                 </div>
               </animated.div>
               <animated.div style={springs2} ref={ref}>
-                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
+                <div className="w-auto flex md:flex flex-col gap-3  md:w-auto ">
                   <DoubleBorderBox>
-                    <TbSql size={100} />
+                    <TbSql className="size-28 md:size-32" />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     SQL
@@ -113,9 +113,9 @@ export default function TechStackSection() {
                 </div>
               </animated.div>
               <animated.div style={springs3} ref={ref}>
-                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
+                <div className="w-auto flex md:flex flex-col hidden gap-3  md:w-auto ">
                   <DoubleBorderBox>
-                    <DiCss3 size={100} />
+                    <DiCss3 className="size-28 md:size-32" />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     CSS
@@ -123,24 +123,15 @@ export default function TechStackSection() {
                 </div>
               </animated.div>
               <animated.div style={springs4} ref={ref}>
-                <div className="w-auto md:flex flex-col gap-6 hidden md:w-auto ">
+                <div className="w-auto md:flex flex-col hidden gap-3  md:w-auto ">
                   <DoubleBorderBox>
-                    <DiGo size={100} />
+                    <DiGo className="size-28 md:size-32" />
                   </DoubleBorderBox>
                   <div className="text-xl font-bold text-center w-full">
                     Go
                   </div>
                 </div>
               </animated.div>
-            </div>
-
-            <div className="flex justify-center items-center p-1 md:p-4">
-              <Link
-                href={"/TechStack"}
-                className="hover:bg-blue-600 bg-slate-950 px-6 py-4 border-4 border-slate-500 w-full md:w-2/6 text-center font-bold text-xl rounded-full"
-              >
-                Learn More
-              </Link>
             </div>
           </div>
         </div>

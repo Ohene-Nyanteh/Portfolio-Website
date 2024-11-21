@@ -36,3 +36,17 @@ body {
 .my-arrow{
   font-size: 2em;
 }
+
+@media (max-width: 500px){
+  .fp-arrow.fp-next{
+    border: none;
+  }
+
+  .fp-arrow.fp-prev{
+    border: none;
+  }
+
+  /* .fp-overflow{
+    overflow-y: hidden;
+  } */
+}
