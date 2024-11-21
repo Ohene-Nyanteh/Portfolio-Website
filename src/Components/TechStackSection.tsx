@@ -113,7 +113,7 @@ export default function TechStackSection() {
                 </div>
               </animated.div>
               <animated.div style={springs3} ref={ref}>
-                <div className="w-auto flex md:flex flex-col hidden gap-3  md:w-auto ">
+                <div className="w-auto md:flex flex-col hidden gap-3  md:w-auto ">
                   <DoubleBorderBox>
                     <DiCss3 className="size-28 md:size-32" />
                   </DoubleBorderBox>
